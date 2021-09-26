@@ -7,7 +7,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: pass
       MYSQL_DATABASE: my_db
-      MYSQL_USER: hikamarimo
+      MYSQL_USER: user
       MYSQL_PASSWORD: pass
       TZ: 'Asia/Tokyo'
     command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
